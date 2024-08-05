@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>leaf Lounge Florist</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Leaf Lounge Florist 🌷</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <tr>
+        <td height="6" bgcolor="#BC8F8F">
+            <marquee behavior="scroll" direction="left" scrollamount="8">
+                <font style="font-family:Century Gothic, sans-serif;" color="#000000">
+                    <center>Here you will find the most perfect bouquest | Send flowers for any occasion or treat yourself! | Click <b>Image</b> to <b>See Details</b> | Click <b>Button</b> to <b>Order</b></center>
+                </font>
+            </marquee>
+        </td>
+    </tr>
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="fresh.html">Fresh Flower</a></li>
+                <li><a href="pipecliner.html">Pipe Cliner Flower</a></li>
+            </ul>
+        </aside>
+
+      
+       <!-- ... (previous code) ... -->
+        <main class="content">
+            <section class="image-section">
+                <div class="image-card">
+                    <a href="detail-tulip.html" title="Rp 150.000,- [See Details]">
+                        <img src="assets/tulip.png" alt="Image 1">
+                    </a>
+                    <h3>Pink Tulip</h3>
+                    <form action="transaction-form.html" method="GET">
+                        <input type="hidden" name="product" value="Tulip">
+                        <input type="hidden" name="price" value="150000">
+                        <button type="submit">Buy Now</button>
+                    </form>
+                    <!-- <button onclick="addToCart('Tulip', 150000)">Buy Now</button> -->
+                </div>
+                <div class="image-card">
+                    <a href="detail-chrythemum.html" title="Rp 120.000,- [See Details]">
+                        <img src="assets/chrythemum.png" alt="Image 2">
+                    </a>
+                    <h3>Premium Chrythemum</h3>
+                    <form action="transaction-form.html" method="GET">
+                        <input type="hidden" name="product" value="Chrythemum">
+                        <input type="hidden" name="price" value="120000">
+                        <button type="submit">Buy Now</button>
+                    </form>
+                    <!-- <button onclick="addToCart('Chrythemum', 120000)">Buy Now</button> -->
+                </div>
+                <div class="image-card">
+                    <a href="detail-ariety.html" title="Rp 95.000,- [See Details]">
+                        <img src="assets/ariety.png" alt="Image 3">
+                    </a>
+                    <h3>Ariety colourful</h3>
+                    <form action="transaction-form.html" method="GET">
+                        <input type="hidden" name="product" value="Ariety">
+                        <input type="hidden" name="price" value="95000">
+                        <button type="submit">Buy Now</button>
+                    </form>
+                    <!-- <button onclick="addToCart('Ariety', 95000)">Buy Now</button> -->
+                </div>
+                <div class="image-card">
+                    <a href="detail-alleta.html" title="Rp 85.000,- [See Details]">
+                        <img src="assets/alleta.png" alt="Image 3">
+                    </a>
+                    <h3>Alleta pinky</h3>
+                    <form action="transaction-form.html" method="GET">
+                        <input type="hidden" name="product" value="Alleta">
+                        <input type="hidden" name="price" value="85000">
+                        <button type="submit">Buy Now</button>
+                    </form>
+                    <!-- <button onclick="addToCart('Alleta', 85000)">Buy Now</button> -->
+                </div>
+                
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Website Made by <b>Kireihikari</b>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

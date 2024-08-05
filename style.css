@@ -1,0 +1,176 @@
+body {
+    font-family: Century Gothic, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #bb0076;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #ff64b2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* . marquee {
+	height:10px;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* .content {
+    padding: 10px;
+} */
+
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-section img {
+    width: 20%;
+    height: 35%;
+}
+
+/* .image-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+} */
+
+.image-section p {
+    font-size: 16px;
+    color: #f53b6f;
+    
+}
+
+/* .image-section button {
+    margin-top: 10px;
+    background-color: #ff64b2;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+
+.image-section button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #e88793;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-section button:hover {
+    background-color: #f559ce;
+}
+
+/* ... (existing CSS rules) ... */
+
+.content {
+    padding: 10px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-card {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-card img {
+    /* width: 50%;
+    height: 65%; */
+    width: 50%;
+    height: 75%;
+    border-radius: 5px;
+}
+
+.image-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.image-card p {
+    margin-top: 5px;
+}
+
+.image-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #FFB6C1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-card button:hover {
+    background-color: #FF1493;
+}
+
+
+
+
+.footer {
+    background-color: #bb0076;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
